@@ -28,7 +28,9 @@ class BattleSim {
 
         int teamSizeDifference = Math.abs(autobots.size() - decepticons.size());
         int numberOfBattles = Math.min(autobots.size(), decepticons.size());
-
+        if(numberOfBattles == 0){
+            return "There are no battles on this day...";
+        }
 
         //battle autobots[i] against decepticons[i]
         for (int i=0; i < numberOfBattles; i++){
@@ -60,9 +62,9 @@ class BattleSim {
         }
         //fighting is over
         if(autobotWins > decepticonWins){
-            result = winResults(result, decepticonSurvivors, decepticons, autobots, teamSizeDifference, "\r\n Winning Team (Autobots): ", "\r\n Survivors from the losing team (Decepticons): ");
+            result = winResults(result, decepticonSurvivors, decepticons, autobots, teamSizeDifference, "\r\n  |  Winning Team (Autobots): ", "\r\n  |  Survivors from the losing team (Decepticons): ");
         }else{
-            result = winResults(result, autobotSurvivors, autobots, decepticons, teamSizeDifference, "\r\n Winning Team (Decepticons): ", "\r\n Survivors from the losing team (Autobots): ");
+            result = winResults(result, autobotSurvivors, autobots, decepticons, teamSizeDifference, "\r\n  |  Winning Team (Decepticons): ", "\r\n  |  Survivors from the losing team (Autobots): ");
         }
 
         return battleCount + " battle(s) " + result;

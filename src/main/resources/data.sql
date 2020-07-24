@@ -1,21 +1,24 @@
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(1,'Shia LaBeouf','Decepticon',9,1,2,3,5,9,1,4);
+values(1,'Shia LaBeouf','Decepticon',1,1,1,1,1,1,1,1);
 
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(2,'Mikaela Banes','Autobot',3,3,6,9,7,9,7,7);
+values(2,'Mikaela Banes','Autobot',2,2,2,2,2,2,2,2);
 
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(3,'Optimus Prime','Autobot',8,8,8,8,9,8,8,8);
+values(3,'Optimus Prime','Autobot',3,3,3,3,3,3,3,3);
 
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(4,'Megatron','Decepticon',9,9,9,9,6,9,9,9);
+values(4,'Megatron','Decepticon',4,4,4,4,4,4,4,4);
 
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(5,'Funky Kong','Autobot',9,4,9,9,6,2,5,9);
+values(5,'Funky Kong','Autobot',5,5,5,5,5,5,5,5);
 
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(6,'KingKRule','Decepticon',9,4,9,4,4,4,9,4);
+values(6,'KingKRule','Decepticon',8,8,8,8,8,8,8,1);
 
 insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
-values(7,'Splitter','Decepticon',2,2,2,2,2,2,2,2);
+values(7,'Splitter','Autobot',7,7,7,7,7,7,7,7);
+
+insert into transformer(id,name,allegiance,strength,intelligence,speed,endurance,rank,courage,firepower,skill)
+values(8,'Predaking','Decepticon',8,8,8,8,8,8,8,8);
 
