@@ -1,0 +1,6 @@
+howl/in/disguise/BattleSim.class
+howl/in/disguise/TransformerResource.class
+howl/in/disguise/TransformerRepository.class
+howl/in/disguise/Transformer.class
+howl/in/disguise/TransformerRestServiceApplication.class
+howl/in/disguise/TransformerNotFoundException.class
