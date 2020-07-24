@@ -31,7 +31,7 @@ public class TransformerResource {
 		return transformer.get();
 	}
 
-
+    //TODO: Not implemented, was going to be used for all transformers to battle eachother in repository
 	@GetMapping("/transformers/sort")
     public ArrayList<ArrayList<Transformer>> sortAllTransformers(){
 

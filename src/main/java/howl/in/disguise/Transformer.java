@@ -11,6 +11,7 @@ public class Transformer implements Comparable<Transformer> {
 
 	private String name;
 
+	//Only allow Autobot or Decepticon as allegiance
 	@Column(columnDefinition = "VARCHAR(60) CHECK (allegiance IN('Autobot', 'Decepticon'))")
 	private String allegiance;
 
@@ -42,6 +43,7 @@ public class Transformer implements Comparable<Transformer> {
 		this.skill = skill;
 	}
 
+	//Additional test constructor for unit tests
     public Transformer(int i, String frodo, String autobot, int i1, int i2, int i3, int i4, int i5, int i6, int i7, int i8) {
     }
 
